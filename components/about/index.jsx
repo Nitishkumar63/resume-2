@@ -15,17 +15,17 @@ const About = () => {
             <hr className="w-[200px] border-[#EC3C63] border" />
           </div>
 
-          <div className="grid lg:grid-cols-3 max-lg:grid-cols-1 gap-20">
-            <div className="max-lg:flex max-lg:justify-center">
-              <div>
+          <div className="grid lg:grid-cols-3 max-lg:grid-cols-1 lg:gap-20">
+            <div className="flex max-lg:justify-center mb-5">
+              
                 <Image
                   src="/images/nitish.png"
                   alt="myphoto"
                   width={400}
-                  height={400}
+                  height={50}
                   className="rounded-2xl"
                 />
-              </div>
+            
             </div>
             <div className="col-span-2">
               <div className="flex flex-col ">
