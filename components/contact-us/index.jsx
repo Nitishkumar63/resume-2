@@ -2,7 +2,7 @@
 import Layout from "../sheared/layout";
 import { Button, Form, Input, message } from "antd";
 import axios from "axios";
-axios.defaults.baseURL = process.env.LOCAL_CLIENT;
+axios.defaults.baseURL = process.env.NEXT_PUBLIC_LOCAL_CLIENT ;
 import { FaMobileAlt } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
@@ -13,7 +13,9 @@ const Contact = () => {
 
   const onFinish = async (value) => {
     try {
-      await axios.post("/api/mail", value);
+      console.log(value)
+      const {data} = await axios.post("/api/mail", value);
+      console.log(data)
       message.success("Send Email Successfully");
     } catch (error) {
       console.log(error.message)
@@ -22,6 +24,9 @@ const Contact = () => {
       form.resetFields();
     }
   };
+
+
+  
 
   return (
     <Layout success="contact">

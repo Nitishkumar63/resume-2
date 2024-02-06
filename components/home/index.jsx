@@ -54,7 +54,7 @@ const Download = () => {
         <div className="flex flex-col gap-5  text-center">
           <div className="border-2 shadow-lg rounded-full w-[300px] h-[300px]">
             <Image
-              src="/images/nitishkumar.png"
+              src="/images/nitish.png"
               width={300}
               height={300}
               alt="myimage"
@@ -72,7 +72,7 @@ const Download = () => {
               menuicon.map((item, index) => (
                 <div key={index}>
                  <Link href={item.path} target="_blank">
-                 <button className="bg-white p-3 text-blue-600 rounded-md  text-lg hover:text-white hover:bg-[#EC3C63] shadow-md">
+                 <button className="bg-white p-3 transition transform hover:-translate-y-1 text-blue-600 rounded-md  text-lg hover:text-white hover:bg-[#EC3C63] shadow-md">
                     {item.icon}
                   </button>
                  </Link>

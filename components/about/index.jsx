@@ -46,7 +46,7 @@ const About = () => {
                 </h1>
               </div>
               <div className="flex flex-col gap-5">
-                <h1 className="font-semibold text-xl">Personal Info</h1>
+                <h1 className="font-semibold text-xl text-red-500">Personal Info</h1>
                 <div className="grid md:grid-cols-2 max-md:grid-cols-1 mb-10">
                   <div className="flex items-center gap-4 mb-10">
                     <div className="w-[50px] h-[50px] rounded-md bg-white  justify-center flex items-center shadow-md">
