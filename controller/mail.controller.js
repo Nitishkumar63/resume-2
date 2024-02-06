@@ -35,6 +35,7 @@ export const mailSend = async (req) => {
      await transporter.sendMail(mailOptions);
     return new Response("Email sent successfully", { status: 200 });
   } catch (error) {
+    console.error(error.message);
     return new Response("Internal Server Error", { status: 500 });
   }
 };
