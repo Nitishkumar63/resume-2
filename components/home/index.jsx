@@ -54,7 +54,7 @@ const Download = () => {
         <div className="flex flex-col gap-5  text-center">
           <div className="border-2 shadow-lg rounded-full w-[300px] h-[300px]">
             <Image
-              src="/images/nitish.png"
+              src="/images/nitishkumar.jpg"
               width={300}
               height={300}
               alt="myimage"
