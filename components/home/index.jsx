@@ -62,8 +62,8 @@ const Download = () => {
             />
           </div>
           <div>
-            <h1 className="font-semibold text-3xl">Nitish Kumar</h1>
-            <h1 className="font-bold text-xl text-gray-600">
+            <h1 className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-3xl">Nitish Kumar</h1>
+            <h1 className="font-bold bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-purple-500 text-xl">
               Full Stack Mern Developer
             </h1>
           </div>
@@ -72,7 +72,7 @@ const Download = () => {
               menuicon.map((item, index) => (
                 <div key={index}>
                  <Link href={item.path} target="_blank">
-                 <button className="bg-white p-3 transition transform hover:-translate-y-1 text-blue-600 rounded-md  text-lg hover:text-white hover:bg-[#EC3C63] shadow-md">
+                 <button className="bg-white p-3 transition transform hover:-translate-y-1 text-black-600 rounded-md  text-lg hover:text-white   bg-gradient-to-b from-pink-400 to-red-300 hover:to-emerald-500 shadow-md">
                     {item.icon}
                   </button>
                  </Link>
@@ -82,7 +82,7 @@ const Download = () => {
           <div className="flex gap-x-3 justify-center">
             <button
               onClick={Download}
-              className=" p-2 w-[250px] h-[50px] rounded-full gap-x-3  flex items-center px-5 item-center justify-center font-semibold text-lg text-white bg-[#EC3C63] shadow-md"
+              className=" p-2 w-[250px] h-[50px] rounded-full gap-x-3 hover:bg-gradient-to-t  hover:to-blue-500 flex items-center px-5 item-center justify-center font-semibold text-lg  text-white bg-gradient-to-b from-purple-900 to-pink-500 shadow-md"
             >
               <Image
                 src="/images/download.png"

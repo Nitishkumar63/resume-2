@@ -7,19 +7,19 @@ const Resume = () => {
   return (
     <Layout success="resume">
       <div className="flex justify-center lg:mt-10 md:mt-2 lg:py-5">
-        <div className="w-[1300px] bg-white rounded-xl p-[50px] shadow-md ">
+        <div className="w-[1300px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl p-[50px]  ">
           <div className="flex gap-x-5 items-center mb-10">
-            <h1 className="text-4xl font-bold">Resume</h1>
-            <hr className="w-[200px] border-[#EC3C63] border" />
+            <h1 className="text-4xl font-bold text-white">Resume</h1>
+            <hr className="w-[200px]  border-2" />
           </div>
 
           <div className="flex flex-col gap-7">
-            <h1 className="text-3xl font-semibold gap-x-2 text-orange-600 flex items-center">
-              <LuGraduationCap className="text-3xl text-[#EC3C63]" />
+            <h1 className="text-3xl font-semibold gap-x-2 text-white flex items-center">
+              <LuGraduationCap className="text-3xl text-white" />
               Technical Skills
             </h1>
             <div className="grid lg:grid-cols-2 max-lg:grid-cols-1 gap-x-10">
-              <div className="bg-[#EEF5FA] p-5 mb-5 ">
+              <div className="bg-[#EEF5FA] p-5 mb-5 rounded-xl ">
                 <h1 className="text-xl font-semibold mb-3 text-orange-600">
                   Frontend And Ui
                 </h1>
@@ -102,7 +102,7 @@ const Resume = () => {
                 </div>
               </div>
 
-              <div className="bg-[#EEF5FA] p-5 mb-5 ">
+              <div className="bg-[#EEF5FA] p-5 mb-5 rounded-xl">
                 <h1 className="text-xl font-semibold mb-3 text-orange-600">
                   Javascript Framework And Library
                 </h1>
@@ -135,7 +135,7 @@ const Resume = () => {
                 </div>
               </div>
 
-              <div className="bg-[#EEF5FA] p-5 mb-5 ">
+              <div className="bg-[#EEF5FA] p-5 mb-5 rounded-xl">
                 <h1 className="text-xl font-semibold mb-3 text-orange-600">
                   Devops And Project Management Tools
                 </h1>
@@ -180,7 +180,7 @@ const Resume = () => {
                 </div>
               </div>
 
-              <div className="bg-[#EEF5FA] p-5 mb-5 ">
+              <div className="bg-[#EEF5FA] p-5 mb-5 rounded-xl">
                 <h1 className="text-xl font-semibold mb-3 text-orange-600">
                   Databases(Managed,Unmanged)
                 </h1>
@@ -215,7 +215,7 @@ const Resume = () => {
                 </div>
               </div>
 
-              <div className="bg-[#EEF5FA] p-5 mb-5 ">
+              <div className="bg-[#EEF5FA] p-5 mb-5 rounded-xl">
                 <h1 className="text-xl font-semibold mb-3 text-orange-600">
                   Backend And ServerSide
                 </h1>
@@ -239,12 +239,12 @@ const Resume = () => {
           </div>
 
           <div className="flex flex-col gap-7 ">
-            <h1 className="text-3xl font-semibold gap-x-2 text-orange-600 flex items-center">
-              <LuGraduationCap className="text-3xl text-[#EC3C63]" />
+            <h1 className="text-3xl font-semibold gap-x-2 text-white flex items-center">
+              <LuGraduationCap className="text-3xl text-white" />
               Experience
             </h1>
             <div className="grid lg:grid-cols-2 max-lg:grid-cols-1 gap-x-10">
-              <div className="bg-[#EEF5FA] p-5 mb-5 flex flex-col ">
+              <div className="bg-[#EEF5FA] p-5 mb-5 flex flex-col rounded-xl ">
                 <h1 className="text-gray-500 font-semibold ">
                   Jun 2021 to Oct 2021
                 </h1>
@@ -257,7 +257,7 @@ const Resume = () => {
                   & Dining Tables on rent from .
                 </h1>
               </div>
-              <div className="bg-[#EEF5FA] p-5 mb-10">
+              <div className="bg-[#EEF5FA] p-5 mb-10 rounded-xl">
                 <h1 className="text-gray-500 font-semibold ">
                   Nov 2021 to Apr 2022
                 </h1>
@@ -271,7 +271,7 @@ const Resume = () => {
                 </h1>
               </div>
 
-              <div className="bg-[#EEF5FA] p-5 mb-10">
+              <div className="bg-[#EEF5FA] p-5 mb-10 rounded-xl">
                 <h1 className="text-gray-500 font-semibold ">
                   May 2022 to Sep 2022
                 </h1>
@@ -285,7 +285,7 @@ const Resume = () => {
                 </h1>
               </div>
 
-              <div className="bg-[#EEF5FA] p-5 mb-10">
+              <div className="bg-[#EEF5FA] p-5 mb-10 rounded-xl">
                 <h1 className="text-gray-500 font-semibold ">
                   Oct 2022 to Mar 2023
                 </h1>
@@ -299,11 +299,11 @@ const Resume = () => {
                 </h1>
               </div>
 
-              <div className="bg-[#EEF5FA] p-5 mb-10">
+              <div className="bg-[#EEF5FA] p-5 mb-10 rounded-xl">
                 <h1 className="text-gray-500 font-semibold ">
                   Apr 2023 to Jul 2023
                 </h1>
-                <h1 className="text-gray-500 font-semibold">
+                <h1 className="text-gray-500 font-semibold ">
                   Showmaqers - Techsunset
                 </h1>
                 <h1 className="text-gray-500 text-justify font-semibold">
@@ -313,7 +313,7 @@ const Resume = () => {
                 </h1>
               </div>
 
-              <div className="bg-[#EEF5FA] p-5 mb-10">
+              <div className="bg-[#EEF5FA] p-5 mb-10 rounded-xl">
                 <h1 className="text-gray-500 font-semibold ">
                   Aug 2023 to Dec 2023
                 </h1>
@@ -330,11 +330,11 @@ const Resume = () => {
           </div>
 
           <div className="flex flex-col gap-7">
-            <h1 className="text-3xl font-semibold gap-x-2 text-orange-600 flex items-center">
-              <IoBagHandle className="text-3xl text-[#EC3C63]" /> Education
+            <h1 className="text-3xl font-semibold gap-x-2 text-white flex items-center">
+              <IoBagHandle className="text-3xl text-white" /> Education
             </h1>
             <div className="grid lg:grid-cols-2 max-lg:grid-cols-1 gap-x-10">
-              <div className="bg-[#FFF4F4] p-5 mb-5">
+              <div className="bg-[#FFF4F4] p-5 mb-5 rounded-xl">
                 <h1 className="font-semibold text-lg mb-1 text-blue-600">
                   COURSES & CERTIFICATIONS
                 </h1>
@@ -347,7 +347,7 @@ const Resume = () => {
                 </h1>
                 <h1 className="text-gray-500 font-semibold">With Grade A+</h1>
               </div>
-              <div className="bg-[#FFF4F4] p-5 mb-10">
+              <div className="bg-[#FFF4F4] p-5 mb-10 rounded-xl">
                 <h1 className="font-semibold text-lg mb-1 text-blue-600">
                   Bachelor Degree
                 </h1>
@@ -360,7 +360,7 @@ const Resume = () => {
                 </h1>
               </div>
 
-              <div className="bg-[#FFF4F4] p-5 mb-10">
+              <div className="bg-[#FFF4F4] p-5 mb-10 rounded-xl">
                 <h1 className="font-semibold text-lg mb-1 text-blue-600">
                   Intermediate
                 </h1>
@@ -371,7 +371,7 @@ const Resume = () => {
                 </h1>
               </div>
 
-              <div className="bg-[#FFF4F4] p-5 mb-10">
+              <div className="bg-[#FFF4F4] p-5 mb-10 rounded-xl">
                 <h1 className="font-semibold text-lg mb-1 text-blue-600">
                   Matriculation
                 </h1>

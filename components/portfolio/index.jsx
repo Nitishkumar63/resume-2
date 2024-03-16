@@ -31,10 +31,10 @@ const Protofolio = () => {
   return (
     <Layout success="works">
       <div className="flex justify-center lg:mt-10 md:mt-2 lg:py-5">
-        <div className="w-[1300px] bg-white rounded-xl p-[50px] shadow-md ">
+        <div className="w-[1300px] bg-gradient-to-b from-indigo-500 via-indego-500 to-red-500 rounded-xl p-[50px]  ">
           <div className="flex gap-x-5 items-center mb-10">
-            <h1 className="text-4xl font-bold">Portfolio</h1>
-            <hr className="w-[200px] border-[#EC3C63] border" />
+            <h1 className="text-4xl font-bold text-white">Portfolio</h1>
+            <hr className="w-[200px] border-white border-2" />
           </div>
 
           <div className="w-full">

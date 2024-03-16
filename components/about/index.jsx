@@ -9,10 +9,10 @@ const About = () => {
   return (
     <Layout success="about">
       <div className="flex justify-center lg:mt-10 md:mt-2 lg:py-5">
-        <div className="w-[1300px] bg-white rounded-xl p-[50px] shadow-md ">
+        <div className="w-[1300px]  rounded-xl p-[50px]  bg-gradient-to-t from-green-500 via-red-300 to-sky-500">
           <div className="flex gap-x-5 items-center mb-10">
-            <h1 className="text-4xl font-bold">About</h1>
-            <hr className="w-[200px] border-[#EC3C63] border" />
+            <h1 className="text-4xl font-bold text-white">About</h1>
+            <hr className="w-[200px] border-white border" />
           </div>
 
           <div className="grid lg:grid-cols-3 max-lg:grid-cols-1 lg:gap-20">
@@ -29,7 +29,7 @@ const About = () => {
             </div>
             <div className="col-span-2">
               <div className="flex flex-col ">
-                <h1 className="font-semibold text-[16px] text-justify mb-5 text-gray-700">
+                <h1 className="font-semibold text-[16px] text-justify mb-5 text-white">
                   A seasoned Full-Stack MERN (MongoDB, Express.js, React,
                   Node.js) Developer with a proven track record of creating
                   robust web applications. Proficient in both front-end and
@@ -46,7 +46,7 @@ const About = () => {
                 </h1>
               </div>
               <div className="flex flex-col gap-5">
-                <h1 className="font-semibold text-xl text-red-500">Personal Info</h1>
+                <h1 className="font-semibold text-xl text-white">Personal Info</h1>
                 <div className="grid md:grid-cols-2 max-md:grid-cols-1 mb-10">
                   <div className="flex items-center gap-4 mb-10">
                     <div className="w-[50px] h-[50px] rounded-md bg-white  justify-center flex items-center shadow-md">
@@ -54,10 +54,10 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col ">
-                      <h1 className="font-semibold text-sm text-gray-500">
+                      <h1 className="font-semibold text-sm text-white">
                         Phone
                       </h1>
-                      <h1 className="font-semibold text-[16px]">
+                      <h1 className="font-semibold text-[16px] text-white">
                         +91 9955050869
                       </h1>
                     </div>
@@ -69,10 +69,10 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col ">
-                      <h1 className="font-semibold text-sm text-gray-500">
+                      <h1 className="font-semibold text-sm text-white">
                         Location
                       </h1>
-                      <h1 className="font-semibold text-[16px]">Bihar</h1>
+                      <h1 className="font-semibold text-[16px] text-white">Bihar</h1>
                     </div>
                   </div>
 
@@ -82,10 +82,10 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col ">
-                      <h1 className="font-semibold text-sm text-gray-500">
+                      <h1 className="font-semibold text-sm text-white">
                         Email
                       </h1>
-                      <h1 className="font-semibold text-[16px]">
+                      <h1 className="font-semibold text-[16px] text-white">
                         nitishkumar6203375@gmail.com
                       </h1>
                     </div>
@@ -97,10 +97,10 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col ">
-                      <h1 className="font-semibold text-sm text-gray-500">
+                      <h1 className="font-semibold text-sm text-white">
                       Birthday
                       </h1>
-                      <h1 className="font-semibold text-[16px]">
+                      <h1 className="font-semibold text-[16px] text-white">
                       Apr 09, 2001
                       </h1>
                     </div>

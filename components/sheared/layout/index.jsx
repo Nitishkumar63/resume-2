@@ -65,7 +65,7 @@ const Layout = ({ children, success }) => {
                   width={50}
                   height={50}
                 />
-                <h1 className="text-lg font-semibold">Nitish Kumar</h1>
+                <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-t from-pink-500 to-violet-500">Nitish Kumar</h1>
               </div>
               <div className="lg:hidden max-lg:block">
                 <button
@@ -94,7 +94,7 @@ const Layout = ({ children, success }) => {
                     <div key={i}>
                       <Link href={item.path}>
                         <button
-                          className={`bg-red-500 text-white p-2 mb-5 rounded-md gap-x-1  flex items-center px-5 item-center justify-center font-semibold text-sm hover:text-white hover:bg-[#EC3C63] shadow-md `}
+                          className={`bg-red-500 text-white  p-2 mb-5 rounded-md gap-x-1  flex items-center px-5 item-center justify-center font-semibold text-sm hover:text-white hover:bg-[#EC3C63] shadow-md `}
                         >
                           {item.icon} {item.label}
                         </button>
@@ -110,7 +110,7 @@ const Layout = ({ children, success }) => {
                     <div key={i}>
                       <Link href={item.path}>
                         <button 
-                          className={`bg-white p-2 rounded-md gap-x-1 text-gray-500 flex items-center px-5 item-center justify-center font-semibold text-sm hover:text-white hover:bg-[#EC3C63] shadow-md ${
+                          className={`bg-white p-2 rounded-md gap-x-1 text-gray-500 flex  px-5 item-center justify-center font-semibold text-sm hover:text-white hover:bg-gradient-to-r  hover:from-pink-500 hover:to-yellow-500  shadow-md ${
                             (success.toLocaleLowerCase() === item.label.toLocaleLowerCase()) ? 'text-red-500' : 'null'
                           }`}
                         >
